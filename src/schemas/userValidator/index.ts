@@ -10,9 +10,7 @@ export const userSchema = z.object({
 });
 
 export const userSchemaRequest = userSchema.omit({
-  id: true,
-  createdAt: true,
-  contacts: true,
+  id: true
 });
 
 export const userSchemaUpdate2 = z

@@ -31,7 +31,7 @@ export const Signup = () => {
         <SignupContainer>
           <StyledH1>Create Account</StyledH1>
           <StyledSignupForm onSubmit={handleSubmit(submit)}>
-            <label htmlFor="username">full name*</label>
+            <label htmlFor="username">Username</label>
             <InputMain type="text" id="username" {...register("username")} />
             <StyledError>{errors.username?.message}</StyledError>
 

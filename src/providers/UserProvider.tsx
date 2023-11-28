@@ -37,7 +37,9 @@ export const UserProvider = ({ children }: IUserProviderProps) => {
 
   const createUser = async (data: TUserRequest) => {
     try {
-      const newUser = { ...data };
+      const newUser = { ...data, is_superuser: true };
+      console.log(data);
+      api.defaults.headers.common["Authorization"];
       const response = await api.post(`users/`, newUser);
       setUser(response.data);
       navigate("/");

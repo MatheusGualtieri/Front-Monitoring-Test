@@ -44,9 +44,10 @@ export const AuthProvider = ({ children }: IAuthProviderProps) => {
 
     if (!token) {
       return;
+    } else {
+      api.defaults.headers.common.Authorization = `Bearer ${token}`;
     }
 
-    api.defaults.headers.common.Authorization = `Bearer ${token}`;
     setLoading(false);
   }, []);
 
