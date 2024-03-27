@@ -5,7 +5,7 @@ Este é um projeto para consumir uma API de um sistema de monitoramento, que dis
 
 Primeiro,  instale as dependências com:
 ```shell
-npm run
+npm install
 ```
 
 Então rode o projeto com:
