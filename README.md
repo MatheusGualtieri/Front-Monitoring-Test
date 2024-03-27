@@ -1,16 +1,14 @@
 # Front Monitoring System
 
-This is an project to consume an API of an monitoring system, that displays charts based on transactions given by the user
+Este é um projeto para consumir uma API de um sistema de monitoramento, que disponibiliza gráficos baseados em dados(neste caso, transações) fornecidos pelo usuário
+# Instalação
 
-# Install
-
-First you will have to install the dependencies with:
-
+Primeiro,  instale as dependências com:
 ```shell
 npm run
 ```
 
-the just run the project with
+Então rode o projeto com:
 
 ```shell
 npm run dev
